@@ -11,12 +11,12 @@
           "multi": {
             "0": {
               "safeContract": "0x8bf38d4764929064f2d4d3a56520a76ab3df415b"
-            },
-          "list": {
+            }
+          },
+          "list": [
                     "0x00bd138abd70e2f00903268f3db08f2d25677c9e",
                     "0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2"
-          }
-          }
+          ]
         },
         "blockRewardContractAddress": "0x3145197AD50D7083D0222DE4fCCf67d9BD05C30D",
         "blockRewardContractTransition": 4639000
