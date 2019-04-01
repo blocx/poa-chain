@@ -1,6 +1,6 @@
 [parity]
 chain = "chain-spec.json"
-base_path = "/tmp/parity1"
+base_path = "parity1"
 [network]
 port = 30300
 [rpc]
