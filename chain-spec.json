@@ -11,7 +11,11 @@
           "multi": {
             "0": {
               "safeContract": "0x8bf38d4764929064f2d4d3a56520a76ab3df415b"
-            }
+            },
+          "list": {
+                    "0x00bd138abd70e2f00903268f3db08f2d25677c9e",
+                    "0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2"
+          }
           }
         },
         "blockRewardContractAddress": "0x3145197AD50D7083D0222DE4fCCf67d9BD05C30D",
@@ -101,6 +105,9 @@
     },
     "0x9c7b78397c6763da61bde82201bf400fa269e6ce": {
       "balance": "252460800000000000000000000"
+    },
+    "0x004ec07d2329997267ec62b4166639513386f32e": {
+      "balance": "10000000000000000000000"
     },
     "0x8bf38d4764929064f2d4d3a56520a76ab3df415b": {
       "balance":"1",
