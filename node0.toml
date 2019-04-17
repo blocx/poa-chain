@@ -3,6 +3,10 @@ chain = "chain-spec.json"
 base_path = "parity0"
 [network]
 port = 30303
+bootnodes = [
+"enode://4ed8389a6e9205fa306c9be32de2f51c4993130e353902176d1fbfb51fe766d7bb3b01332ecb17d7ab587a4715dd28def7b7e2ee5d4bc982a6a6af465a26f845@172.31.23.152:30303", # Node2
+"enode://a706d878d600851284f98b90621f6c5ef8886caaa6aa139cb0c6a2b4e972495db40defe81ac4f993e42d974f0b0185d68b744828344264072135984bdbd50aaa@172.31.25.248:30303" # Node1
+]
 [rpc]
 port = 8545
 apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
