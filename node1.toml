@@ -18,7 +18,7 @@ password = ["node1.pwd"]
 [mining]
 engine_signer = "0x58362c93194bf6c3829e80cfe06c03fd816363f4"
 reseal_on_txs = "none"
-force_sealing = false
+force_sealing = true
 [footprint]
 # Compute and Store tracing data. (Enables trace_* APIs).
 tracing = "on"
