@@ -15,3 +15,7 @@ cors = ["https://remix.ethereum.org"]   # allow Remix to connect to this node
 disable = false                         # Enable WS JSON RPC on the standard port
 port = 8450
 interface = "local"
+
+[account]
+unlock = ["0x03667395613547d0099e7baebe1815cf999c7191"]      # rpc's account to sign transactions from Remix.
+password = ["rpc.pwd"]
