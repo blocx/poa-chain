@@ -15,3 +15,8 @@ password = ["node0.pwd"]
 engine_signer = "0x6b2777e345c766c66e686ffbaa83aab4849b3ae4"
 reseal_on_txs = "none"
 force_sealing = true
+[footprint]
+# Compute and Store tracing data. (Enables trace_* APIs).
+tracing = "on"
+# Enables Fat DB
+fat_db = "on"
