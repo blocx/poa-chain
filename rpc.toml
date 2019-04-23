@@ -1,0 +1,17 @@
+[parity]
+chain = "chain-spec.json"
+base_path = "rpc"
+
+[network]
+port = 30303
+#bootnodes = []
+
+[rpc]
+port = 8545                             # Enable HTTP JSON RPC on the standard port
+apis = ["eth","net"]
+cors = ["https://remix.ethereum.org"]   # allow Remix to connect to this node
+
+[websockets]
+disable = false                         # Enable WS JSON RPC on the standard port
+port = 8450
+interface = "local"
