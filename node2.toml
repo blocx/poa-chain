@@ -3,18 +3,22 @@ chain = "chain-spec.json"
 base_path = "parity2"
 [network]
 port = 30303
+bootnodes = [
+"enode://03edad3a9250172483745eb5afce9c8122b0be599705297875a61aa1fb7beb2f09df46ca1429ddddf560cd3739654d02d3a7dbea0a8221f297dcbdc81cb20492@172.31.24.252:30303", # 0
+"enode://c07371345b0e89ed0acebabb0193e7b397aaa15efaf03d639b6c5517820fe967ea1746fd48d6fc71ff17b9a8ae378f79cd204fef7db1c11b08ddf528a74ca8da@172.31.25.248:30303", # 1
+"enode://ebd5c0205a044705e178bedcb33d6b0346d403bc6d14e50466eddde3d153845405fcc6c3d41ceb98aa6f0ab432a9d485a8d776462d4646e0e82eec268cfad540@172.31.28.132:30303" # rpc
+]
 [rpc]
 port = 8545
 apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
 [websockets]
 port = 8450
-[ipc]
-disable = true
 [account]
-password = ["node.pwds"]
+# password = ["node2.pwd"]
 [mining]
-engine_signer = "0x002e28950558fbede1a9675cb113f0bd20912019"
+# engine_signer = "0x58362c93194bf6c3829e80cfe06c03fd816363f4"
 reseal_on_txs = "none"
+force_sealing = true
 [footprint]
 # Compute and Store tracing data. (Enables trace_* APIs).
 tracing = "on"
